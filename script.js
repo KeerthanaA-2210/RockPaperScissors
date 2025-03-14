@@ -7,9 +7,9 @@ function playGame(playerMove) {
     if (playerMove === computerMove) {
         result = "The game was a tie...";
     } else if (
-        (playerMove === "r" && computerMove === "r") ||
-        (playerMove === "p" && computerMove === "p") ||
-        (playerMove === "s" && computerMove === "s")
+        (playerMove === "r" && computerMove === "s") ||
+        (playerMove === "p" && computerMove === "r") ||
+        (playerMove === "s" && computerMove === "p")
     ) {
         result = "You win!! 🎉";
     } else {
