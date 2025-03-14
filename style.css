@@ -1,0 +1,34 @@
+h1{
+    color:#950a0a;
+    background-color: honeydew;
+}
+#one{
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    display: inline;
+}
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-color: rgb(135, 174, 222);
+
+}
+ button:hover{
+    background-color: #45a049;
+ }
+ #result{
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: thin;
+    font-style: italic;
+ }
+ button{
+    background-color: antiquewhite;
+    color: #950a0a;
+    font-size: 20px;
+ }
+ 
